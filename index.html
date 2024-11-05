@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <section id="home">
+        <!-- This is the Main Heading -->
+        <header><b>Temperature Converter</b></header>
+        <nav class="topdiv">
+            <a href="#temperature"><button class="topmenu">Temperature</button></a>
+        </nav>
+    </section>
+    
+    <div id="conversion-section">
+        <section id="temperature" class="b tempeature">
+            <div id="temp">
+                <figure>
+                    <img src="images/thermo.png" alt="Temperature illustration" width="200px">
+                    <figcaption>Celsius to Fahrenheit Conversion</figcaption>
+                </figure>
+
+                <article>
+                    <fieldset>
+                        <legend>Temperature</legend>
+                        <label for="Temperature">Celsius</label><br>
+                        <input type="number" id="celsius"><br>
+                        <button id="temperature">Convert</button><br>
+                        <input type="number" id="fahrenheit"><br>
+                        <label for="Temperature">Fahrenheit</label>
+                    </fieldset>
+                </article>
+                <aside>
+                    To convert Celsius to Fahrenheit yourself, use this formula replacing 'C' with your temperature in Celsius: (C x 9/5) + 32
+                </aside>
+            </div>
+        </section>
+    </div>
+
+    <div id="go-home" class="iconbutton">
+        <a href="#home">
+            <img src="images/home.svg" alt="Go Home">
+        </a>
+    </div>
+
+    <footer>&copy 2024 Vinod VV</footer>
+</body>
+</html>
